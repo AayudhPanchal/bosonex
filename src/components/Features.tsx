@@ -55,7 +55,7 @@ export default function FeatureSection() {
             </div>
           </div>
 
-          <div className="Cards container flex flex-wrap gap-5 items-center justify-center p-8">
+          <div className="Cards container flex flex-wrap gap-5 items-center justify-center p-8 md:pb-32">
             {features.map((feature, index) => (
               <div key={index} className="md:w-[30%] md:h-[45vh] w-[80%]">
                 <Card className="w-full h-full flex flex-col justify-between hover:bg-[#101010] hover:scale-[1.01]">

@@ -1,5 +1,6 @@
 import HeroSection from "@/components/Hero";
 import FeatureSection from "@/components/Features";
+import PricingPage from "@/components/Pricing";
 
 export default function Home() {
 
@@ -10,7 +11,7 @@ export default function Home() {
 
       <FeatureSection />
 
-      
+      <PricingPage />
 
     </div>
   );
