@@ -44,11 +44,11 @@ export default function FeatureSection() {
     <>
     <hr className="opacity-65 md:mb-0 mb-5"/>
       <div className="md:h-20" id="About"></div>
-      <div className="flex justify-center items-center" id="About">
+      <div className="flex justify-center items-center">
         <div className="text-[#DADAD9] flex flex-col items-center justify-center text-center">
           <div className="Headings flex flex-col items-center justify-center md:gap-4">
             <div className="main_head md:text-5xl text-2xl font-semibold">
-              What do we offer?
+              What we offer.
             </div>
             <div className="desc md:text-xl">
               Take a look at what we do, for you!
@@ -57,7 +57,7 @@ export default function FeatureSection() {
 
           <div className="Cards container flex flex-wrap gap-5 items-center justify-center p-8 md:pb-32">
             {features.map((feature, index) => (
-              <div key={index} className="md:w-[30%] md:h-[45vh] w-[80%]">
+              <div key={index} className="md:w-[30%] md:h-[45vh] w-[80vw]">
                 <Card className="w-full h-full flex flex-col justify-between hover:bg-[#101010] hover:scale-[1.01]">
                   <CardHeader className="font-semibold">
                     {feature.title}

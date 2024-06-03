@@ -10,7 +10,7 @@ interface PricingCardProps{
 
 export default function PricingCard(props: PricingCardProps){
     return(
-        <div className="md:w-[20vw] md:h-[60vh] w-[85vw] rounded-xl flex flex-col gap-2 justify-start items-start md:py-6 py-4 md:px-8 px-5 border-1 hover:scale-[1.01] transition-all border-[#A1A1A1] text-[#EDEDED]">
+        <div className="md:w-[20vw] md:h-[60vh] w-[85vw] rounded-xl flex flex-col gap-2 justify-start items-start md:py-6 py-4 md:px-8 px-5 border-1 hover:scale-[1.01] hover:bg-[#18181B] transition-all border-[#A1A1A1] text-[#EDEDED]">
 
             <div className="title md:text-xl text-lg font-semibold">
                 {props.title}

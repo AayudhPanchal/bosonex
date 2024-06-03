@@ -56,15 +56,6 @@ const sections = [
     ],
   },
   {
-    title: "Contact",
-    links: [
-      { label: "Get in Touch", href: "#" },
-      { label: "Feedback", href: "#" },
-      { label: "Feature Requests", href: "#" },
-      { label: "Roadmap", href: "#" },
-    ],
-  },
-  {
     title: "Developers",
     links: [
       { label: "Documentation", href: "#" },

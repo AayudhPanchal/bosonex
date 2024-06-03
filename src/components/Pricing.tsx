@@ -1,6 +1,6 @@
 import PricingCard from "./PricingCard";
 
-export default function PricingPage() {
+export default function PricingSection() {
   const cardData = [
     {
       title: "Hobby",
@@ -61,7 +61,7 @@ export default function PricingPage() {
             Pick a plan that is best fit for your business
           </div>
 
-            <div className="cardContainer flex flex-wrap justify-center items-center gap-8">
+            <div className="cardContainer flex flex-wrap justify-center items-center gap-8 pb-12">
                 {cardData.map((card, index) => (
                     <PricingCard 
                     key={index} 
