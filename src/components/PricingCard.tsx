@@ -26,7 +26,7 @@ export default function PricingCard(props: PricingCardProps){
 
             <div className="features flex flex-col items-start text-sm md:gap-1 gap-[10px] text-[#A1A1A1]">
                 {props.features.map((feature, index) => (
-                    <div>
+                    <div key={index}>
                        &#10004; {feature}
                     </div>
                 ))}
