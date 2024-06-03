@@ -42,7 +42,7 @@ export default function FeatureSection() {
 
   return (
     <>
-    <hr className="opacity-65"/>
+    <hr className="opacity-65 md:mb-0 mb-5"/>
       <div className="md:h-20" id="About"></div>
       <div className="flex justify-center items-center" id="About">
         <div className="text-[#DADAD9] flex flex-col items-center justify-center text-center">
